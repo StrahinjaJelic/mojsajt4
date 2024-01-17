@@ -1,0 +1,201 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url("./../images/pink-floyd-wallpaper-preview.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+header>img {
+    height: 120px;
+}
+
+main {
+    padding: 7px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+td,th{
+    border: 1px solid #111111;
+    padding: 4px;
+}
+
+th {
+    background-color: rgb(150, 27, 27);
+    color: white;
+}
+
+
+
+#album_container{
+    display: flex;
+}
+
+#album_tracklist{
+    margin-left: 10px;
+    flex-grow: 1;
+}
+
+#back_top {
+    position: fixed;
+    width: 28px;
+    height: 28px;
+    background-color: white;
+    bottom: 10px;
+    right: 10px;
+}
+
+#back_top a{
+    text-decoration: none;
+    color: darkred;
+    font-size: 36px;
+    text-align: center;
+    display: block;
+    font-weight: bold;
+}
+
+#back_top a:hover{
+    font-size: 50px;
+    text-decoration: dashed;
+}
+
+#band_image>img {
+    width: 80%;
+    display: block;
+    margin: auto;
+    box-shadow: 2px 2px 1800px rgba(0,0,0,0.3);
+}
+
+.caption {
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 45px;
+    font-style: italic;
+}
+
+#login{
+    text-align: center;
+    border: 10px solid darkred;
+    margin: 15px 15px;
+    margin-top: 40px;
+}
+
+#login>h2{
+    border-bottom: 5px dotted black;
+    margin-bottom: 5px;
+}
+
+input{
+    border: 6px solid darkred;
+    border-radius: 15px;
+    height: 25px;
+    width: 100;
+}
+
+#main_menu {
+    background-image: url("./../images/bricks_bg.webp");
+    background-repeat: repeat-x;
+    background-position: center left;
+    padding: 10px 7px;
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 5px double darkred;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.section_title {
+    margin-top: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#sessions {
+    display: flex;
+    flex-direction: row;
+}
+
+#session_wrap{
+    max-width: 33%;
+    border: 3px double darkred;
+    border-radius: 15px;
+    margin-right: 5px;
+}
+
+#session_wrap>img{
+    max-width: 90%;   
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    align-content: center;
+    margin-bottom: 20px;
+    height: 255px;
+    width: 355px;
+}
+
+#session_wrap>p{
+    text-align: center;
+}
+
+#main_menu>a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+#main_menu>a:hover{
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+#movie_section{
+    display: flex;
+    flex-direction: row;
+}
+
+#movie_section_text{
+    max-width: 60%;
+    text-align: center;
+    margin: auto auto;
+    border: 5px dotted darkred;
+    border-radius: 15px;
+}
+
+#movie_section>img{
+    margin-left: 20px;
+}
+
+#wrapper {
+    background-color: lightgray;
+    width: 1278px;
+    border: 1px solid lightgray;
+    margin: auto; /*margin: auto centrira sadržaj*/
+    box-shadow:  5px 0 25px rgba(118,118,118,0.5),
+    -5px 0 25px rgba(118,118,118,0.5);
+    min-height: 100vh;
+}
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+}

@@ -1,0 +1,12 @@
+body {
+    background-image: url("./../images/bg2.png"), 
+    url("./../images/bg1.jpg");
+    /*background-repeat: no-repeat;*/
+    /*background-position: bottom center;*/
+    /*background-size: 400px 300px;*/
+    /*background-size: contain;*/
+    background-repeat: no-repeat, repeat;
+    background-size: 45px 45px, auto;
+    background-position: center center, top left;
+    height: 100vh;
+}
